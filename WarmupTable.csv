@@ -1,0 +1,13 @@
+UID,Priority,ESP Name/Code,IP Pool Name,Stream,Start Date,Warmup Target,Starting Point,Interval,Custom,Todays Target,So Far,Warmup Speed,Pass Thru
+22934829,1,sparkpost,alerts,alerts,06/30/18,100000,200,daily,,31096,21038,2.0,nothing,old
+20392811,2,sparkpost,newsletters,newsletters,06/30/18,2000000,200,hourly,,1200,100,2.0,nothing,old
+29382229,4,monkeyboy,oldstuff,all,06/30/18,10000,200,custom,8,200,0,2.0,spickled,old
+29288222,6,sparkpost,open,open,7/22/18,10000,200,daily,,12800,12800,2.0,in front,old
+22900922,7,sparkpost,pitched,passwords,07/05/18,500,200,daily,,1906,1906,1.250,,old
+20001833,9,sparkpost,alertm,alerts,07/10/18,200,20,daily,,3200,0,2.0,,old
+24942022,9,sparkpost,alertl,alerts,06/29/18,10000,200,custom,12,1400,0,2.0,,old
+56912145,12,sparkpost,snappy,notblank,07/24/18,800,200,daily,,200,0,2.0,,old
+60382855,13,sparkpost,,scream,07/25/18,0090000,200,daily,,200,0,2.0,,old
+19053849,15,allwaysdown,passwords,passwords,06/23/18,50000,300,custom,5,58868,16000,2.0,,old
+82904774,55,sparkpost,default,none,07/05/18,900000,200,hourly,,200,0,2.0,,old
+29935445,72,sparkpost,swished,dished,09/18/18,283847288,7000,hourly,,,,2.0,not if I have anything to say about it,new

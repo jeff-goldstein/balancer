@@ -1,0 +1,6 @@
+UID,ESP Name/Code,IP Pool Name,Stream,Percentage,Start Date,Pass Thru
+92018233,sparkpost,alerts,alerts,10,07/01/18,line1
+48373222,sparkpost,newsletters,newsletters,4,07/02/18,Pass xyz and abc
+11392677,sparkpost,outbound,open,50,07/22/18,sidelined
+29804374,starkly,newsletters,passwords,30,06/30/18,line4
+01191822,sparkpost,outbound2,passwords,50,05/05/18,line3
