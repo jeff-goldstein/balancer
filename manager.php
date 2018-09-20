@@ -160,11 +160,6 @@ ul.topnav li.icon {display: none;}
 <body style="margin-left: 20px; margin-right: 20px" onload="populateWarmup(), populateBalance(), getDown(), getCurrentWarmupSending(), checkESPPoolCombo()"<>
 <div class="header" style="width:1600px">
 <ul class="topnav" id="generatorTopNav">
-    <!--<li><a class="active" href="cgBuildCampaign.php">Generate Campaign</a></li>
-    //<li><a class="active" href="cgTemplateManager.php">Template Manager</a></li>
-    //<li><a class="active" href="cgEmailTracer.php">Email Tracer</a></li>
-    //<li><a class="active" href="graphing/highchart.php">Reporting</a></li>    
-    //<li><a href="helpdocs/cgHelp.php" target="_blank">Help</a></li> -->
     <li><a href="https://developers.sparkpost.com/" target="_blank">SparkPost Documentation</a></li>
     <li><a href="mailto:email.goldstein@gmail.com?subject=cgMail">Contact</a></li>
     <li><a class="active" href="../cgKey.php">Logoff</a></li>

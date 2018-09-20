@@ -8,6 +8,7 @@ UID,Priority,ESP Name/Code,IP Pool Name,Stream,Start Date,Warmup Target,Starting
 24942022,9,sparkpost,alertl,alerts,06/29/18,10000,200,custom,12,1400,0,2.0,,old
 56912145,12,sparkpost,snappy,notblank,07/24/18,800,200,daily,,200,0,2.0,,old
 60382855,13,sparkpost,,scream,07/25/18,0090000,200,daily,,200,0,2.0,,old
+21303919,13,sparkpost,passed,swish,09/19/18,29283,200,daily,,,,2.0,,new
 19053849,15,allwaysdown,passwords,passwords,06/23/18,50000,300,custom,5,58868,16000,2.0,,old
 82904774,55,sparkpost,default,none,07/05/18,900000,200,hourly,,200,0,2.0,,old
-29935445,72,sparkpost,swished,dished,09/18/18,283847288,7000,hourly,,,,2.0,not if I have anything to say about it,new
+29935445,72,sparkpost,swished,dished,09/18/18,283847288,7000,hourly,,,0,2.0,not if I have anything to say about it,old
