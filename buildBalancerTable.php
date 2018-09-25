@@ -10,7 +10,7 @@ Purpose in life: To take the data from the Balancer Table and create an HTML tab
   echo "<th align=left>Unique Row ID</th>";
   echo "<th align=left>ESP Name/Code</th>";
   echo "<th align=left>IP Pool Name (optional)</th>";
-  echo "<th align=left>Category</th>";
+  echo "<th align=left>Stream</th>";
   echo "<th align=left>Percentage</th>";
   echo "<th align=left>Start Date</th>";
   echo "<th align=left>Pass Thru Text</th>";
@@ -47,11 +47,11 @@ Purpose in life: To take the data from the Balancer Table and create an HTML tab
     }
     elseif ($items[0]) $count++; // This was the header row; need to add one to the count.
 	}
-  if ($count < 2) 
-  {
-    $row .= "<tr><td colspan=7 border='0'><br><br><center><h3>No Entries, New system?</h3></center></td></tr>";
-    echo $row;
-  }
+  // if ($count < 2) 
+  // {
+  //   $row .= "<tr><td colspan=7 border='0'><br><br><center><h3>No Entries, New system?</h3></center></td></tr>";
+  //   echo $row;
+  // }
   echo "</tbody>";
 }	
 ?>

@@ -106,7 +106,7 @@ Called By: manager.php
   echo "<th><center>Priority*</center></th>";
   echo "<th><center>ESP Name/Code*</center></th>";
   echo "<th><center>IP Pool Name</center></th>";
-  echo "<th><center>Category*</center></th>";
+  echo "<th><center>Stream*</center></th>";
   echo "<th><center>Start Date* (mm/dd/yy)</center></th>";
   echo "<th><center>Target*<br>(# Emails/Day)</center></th>";
   echo "<th><center>Starting Point* (Number of emails)</center></th>";
@@ -148,7 +148,7 @@ Called By: manager.php
       $row .= "<td><input type=text id='txtPriority" . $count . "'required type='number' style='width:68px; color:black;background-color: lightgray;' title='The warmup process will use email pools with the highest priority first (1 being the highest), then move to the next pool once the lower pools are used for the given interval.' value=" . $items[1] . "></td>";
       $row .= "<td><input id='txtESP" . $count . "' name='txtESP' required onchange='checkESPPoolCombo()' style='width:68px; color:black;background-color: lightgray;' value='" . $items[2] . "'></td>";
       $row .= "<td><input id='txtippool" . $count . "' name='ippool' onchange='checkESPPoolCombo()' style='width:68px; color:black;background-color: lightgray;' value='" . $items[3] . "'></td>";
-      $row .= "<td><input id='txtCategory" . $count . "'required style='width:68px; color:black;background-color: lightgray;' value='" . $items[4] . "'></td>";
+      $row .= "<td><input id='txtStream" . $count . "'required style='width:68px; color:black;background-color: lightgray;' value='" . $items[4] . "'></td>";
       $row .= "<td><input id='txtStartDate" . $count . "'required pattern='^(1[0-2]|0*[1-9]) ?[-\/] ?(0[1-9]|[1-2]?[0-9]|3[0-1]) ?[-\/] ?(1[8-9]|2[0-9])' style='width:98px; color:black;background-color: lightgray;' value='" . $items[5] . "'></td>";
       $row .= "<td><input id='txtTarget" . $count . "'required pattern='[0-9]*' style='width:98px; color:black;background-color: lightgray;' title='This is the number of emails being sent on a given day where you believe the pool is warmed up and ready to be used on a ongoing basis (see Ongoing Balancer tab).' value='" . $items[6] . "'></td>";
       $row .= "<td><input id='txtStartingPoint" . $count . "'required pattern='[0-9]*' style='width:98px; color:black;background-color: lightgray;' onchange='updateDailyTarget(" . $count . ")' title='This the number of emails this pool is allowed to send on the first day.  Daily calculations will continue from there using the previous days actual sending from that pool.' value='" . $items[7] . "'></td>";
@@ -179,11 +179,11 @@ Called By: manager.php
     }
     elseif ($items[0]) $count++; // This was the header row; need to add one to the count.
 	}
-  if ($count < 2) 
-  {
-    $row .= "<tr><td colspan=11 border='0'><br><br><center><h3>No Entries, New system?</h3></center></td></tr>";
-    echo $row;
-  }
+  // if ($count < 2) 
+  // {
+  //   $row .= "<tr><td colspan=11 border='0'><br><br><center><h3>No Entries, New system?</h3></center></td></tr>";
+  //   echo $row;
+  // }
   echo "</tbody>";
 }	
 ?>
